@@ -19,6 +19,7 @@ public class HW4 {
         double double1 = 1.0, double2 = 2.0;
         boolean isTrue = true, isFalse = false;
         char char1 = 1,char2 = 2;
+        // should be char char1 = '1';
         long int2long = num1;
         System.out.println("int to long:" + int2long);
         int long2int = (int)long1;
