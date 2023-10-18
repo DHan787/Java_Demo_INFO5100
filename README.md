@@ -1,2 +1,2 @@
- Java_pDemo_INFO5100
+ Java_Demo_INFO5100
  by Jiang Han
