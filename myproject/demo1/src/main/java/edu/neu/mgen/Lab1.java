@@ -1,4 +1,4 @@
-package edu;
+package edu.neu.mgen;
 
 import java.util.ArrayList;
 
