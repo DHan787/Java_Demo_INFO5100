@@ -22,6 +22,8 @@ public class Lab1 {
         int[] z = new int[5];
         for(int i = 0; i < 5; i++){
             z[i] = x[i] > y[i] ? x[i] : y[i]; 
+            //Another way to do it
+           // z[i] = Math.max(x[i], y[i]);
         }
          System.out.println("Array x = { "+ arrayToString(x) + "}");
          System.out.println("Array x = { "+ arrayToString(y) + "}");
