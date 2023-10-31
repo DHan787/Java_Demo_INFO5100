@@ -15,7 +15,8 @@ public class Midterm {
         int[][] midTermMatrix = {
                 { 1, 2, 3 },
                 { 4, 5, 6 },
-                { 7, 8, 9 }
+                { 7, 8, 9 },
+                { 10, 11, 12 }
         };
         // It could be any size of matrix.
         System.out.println("The sum of the matrix is " +
