@@ -27,6 +27,9 @@ public class HW7 {
         }
     }
 
+    /*
+     * return the result of multiplication
+     */
     public static int[][] multiply(int[][] matrixA, int[][] matrixB) {
         // get the length of the matrix
         int rowsA = matrixA.length;
