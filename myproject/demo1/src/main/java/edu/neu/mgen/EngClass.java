@@ -1,5 +1,11 @@
+/*
+ * @Author: Jinag Han
+ * @Date: 2023-11-14 12:06:52
+ * @LastEditTime: 2023-11-20 21:31:44
+ * @Description: 
+ * 
+ */
 package edu.neu.mgen;
-// by jiang han
 
 import java.util.ArrayList;
 import java.util.List;
