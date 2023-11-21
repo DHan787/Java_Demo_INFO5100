@@ -1,3 +1,10 @@
+/*
+ * @Author: Jinag Han
+ * @Date: 2023-10-23 17:24:34
+ * @LastEditTime: 2023-11-20 21:50:01
+ * @Description: 
+ * 
+ */
 package edu.neu.mgen;
 
 import java.util.Scanner;
@@ -12,17 +19,19 @@ import java.util.Scanner;
 *print the results in the terminal.
 */
 public class HW4 {
-    public static void main( String[] args )
-    {
-        int num1 = 1,num2 = 2;
+    public static void main(String[] args) {
+        int num1 = 1, num2 = 2;
         long long1 = 1, long2 = 2;
+        System.out.println(long2);
         double double1 = 1.0, double2 = 2.0;
+        System.out.println(double1 + double2);
         boolean isTrue = true, isFalse = false;
-        char char1 = 1,char2 = 2;
+        char char1 = 1, char2 = 2;
+        System.out.println(char1 + char2);
         // should be char char1 = '1';
         long int2long = num1;
         System.out.println("int to long:" + int2long);
-        int long2int = (int)long1;
+        int long2int = (int) long1;
         System.out.println("long to int:" + long2int);
         Scanner myScanner = new Scanner(System.in);
 
@@ -37,14 +46,14 @@ public class HW4 {
         int remainder = num1 % num2;
 
         myScanner.close();
-        
+
         System.out.println("Arithmetic Operations:");
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
         System.out.println("Remainder: " + remainder);
-        
+
         boolean andResult = isTrue && isFalse;
         boolean orResult = isTrue || isFalse;
         boolean notResult = !isTrue;
