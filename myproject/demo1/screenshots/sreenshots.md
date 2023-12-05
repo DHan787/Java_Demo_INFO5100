@@ -1,7 +1,7 @@
 <!--
  * @Author: Jinag Han
  * @Date: 2023-10-23 17:24:34
- * @LastEditTime: 2023-11-27 22:29:13
+ * @LastEditTime: 2023-12-05 02:45:13
  * @Description: 
  * 
 -->
@@ -25,3 +25,7 @@
 ![Alt text](image-8.png)
 # Screenshots for HW13
 ![Alt text](image-9.png)
+# Screenshots for lab3
+![Alt text](image-10.png)
+![Alt text](image-11.png)
+![Alt text](image-12.png)

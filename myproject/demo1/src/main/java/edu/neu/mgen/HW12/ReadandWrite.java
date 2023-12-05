@@ -39,6 +39,5 @@ public class ReadandWrite {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
-
     }
 }

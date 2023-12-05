@@ -2,7 +2,7 @@
  * @Author: Jinag Han
  * @Date: 2023-11-27 21:47:01
  * @Description: 
- * @LastEditTime: 2023-11-27 22:26:19
+ * @LastEditTime: 2023-12-03 21:46:32
  * 
  */
 
@@ -123,6 +123,36 @@ public class DbAccess {
             int affectedRows = pstmt.executeUpdate();
             System.out.println("Affected rows: " + affectedRows);
         } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public Connection getConnection() {
+        try {
+            // load the MySQL driver
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+            // Setup the connection with the DB
+            connect = DriverManager.getConnection(databaseURL, user, password);
+            return connect;
+
+        } catch (ClassNotFoundException e) {
+            System.out.println("MySQL driver not found");
+            e.printStackTrace();
+        } catch (SQLException e) {
+            System.out.println("Connection to database failed");
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public void closeConnection(Connection connection) {
+        try {
+            if (connection != null) {
+                connection.close();
+            }
+        } catch (SQLException e) {
+            System.out.println("Failed to close the connection");
             e.printStackTrace();
         }
     }
