@@ -1,3 +1,10 @@
+/*
+ * @Author: Jinag Han
+ * @Date: 2023-12-05 13:34:51
+ * @Description: 
+ * @LastEditTime: 2023-12-05 14:59:39
+ * 
+ */
 package edu.neu.mgen.HW14;
 
 import java.io.*;
@@ -32,7 +39,9 @@ public class WriteThread extends Thread {
 
         do {
             text = console.readLine("[" + userName + "]: ");
+
             writer.println(text);
+
         } while (!text.equals("bye"));
 
         try {

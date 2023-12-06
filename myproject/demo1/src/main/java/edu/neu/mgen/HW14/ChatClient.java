@@ -65,5 +65,7 @@ public class ChatClient {
         } catch (IOException ex) {
             System.out.println("I/O Error: " + ex.getMessage());
         }
+
+        
     }
 }
